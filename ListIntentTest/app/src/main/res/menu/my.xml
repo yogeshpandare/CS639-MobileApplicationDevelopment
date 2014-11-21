@@ -5,5 +5,19 @@
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
-        app:showAsAction="never" />
+        app:showAsAction="always" />
+    <item android:id="@+id/myshare"
+        android:title="Share"
+        app:showAsAction="always">
+    <menu>
+        <item android:id="@+id/create_new"
+            android:title="Game one" />
+        <item android:id="@+id/open"
+            android:title="Game two" />
+    </menu>
+        </item>
+    <item android:id="@+id/myshare1"
+        android:title="Share"
+        app:showAsAction="always" />
+
 </menu>
